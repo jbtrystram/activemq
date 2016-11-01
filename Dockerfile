@@ -1,6 +1,4 @@
-FROM webcenter/openjdk-jre:8
-MAINTAINER Sebastien LANGOUREAUX <linuxworkgroup@hotmail.com>
-
+FROM hypriot/rpi-java
 
 # Update distro and install some packages
 RUN apt-get update && \
